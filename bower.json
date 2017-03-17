@@ -1,0 +1,17 @@
+{
+  "name": "phyllotaxis-svg-generator",
+  "homepage": "https://github.com/dni/phyllotaxis-svg-generator",
+  "description": "d3js phyllotaxis pattern svg generator",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^4.7.3"
+  }
+}
