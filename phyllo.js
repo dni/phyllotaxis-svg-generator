@@ -29,6 +29,7 @@ function updateData() {
   circles
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; })
+    .attr("r", function(d) { return d.size; })
   // create new
   circles
     .enter().append("circle")
